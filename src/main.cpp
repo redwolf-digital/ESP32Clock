@@ -1,3 +1,6 @@
+/* 
+Author : REDWOLF DiGiTAL (C. Woraken)
+*/
 #include <Arduino.h>
 #include <WiFi.h>
 #include "time.h"
@@ -7,8 +10,8 @@ TaskHandle_t Task1;
 TaskHandle_t Task2;
 TaskHandle_t Task3;
 
-const char* ssid       = "Kiatsuda_210_2.4G";
-const char* password   = "omo901256";
+const char* ssid       = "WIFI_SSID";
+const char* password   = "WIFI_PASSs";
 
 #define CLK 18
 #define DIO 5
